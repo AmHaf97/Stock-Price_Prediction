@@ -5,8 +5,8 @@ import pandas_datareader as web #Delpaket från panda bibliotek som används fö
 import datetime as dt #Python bibliotek, används för att manipulera tid och datum
 
 from sklearn.preprocessing import MinMaxScaler #Verktyg och algoritmer för dataprocessing. T.ex. scaling av numerisk data 
-from tensorflow.keras.models import Sequential #
-from tensorflow.keras.layers import Dense, Dropout, LSTM
+from tensorflow.keras.models import Sequential #Bibliotek för Maskin -och djupinlärning, keras används för att bygga och lära neural-networks, sequential används för att skapa liniära lager
+from tensorflow.keras.layers import Dense, Dropout, LSTM #Dense, Droupout & LongShortTermMemory är dessa linjära lager som används i neural-networks
 
 # Load Data
 
